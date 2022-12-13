@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "screenportsdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/in2core/screenportsdk",
+      "state" : {
+        "branch" : "main",
+        "revision" : "b0d817b9fbf4697f0308e990e991fdde1ac741a1"
+      }
+    }
+  ],
+  "version" : 2
+}

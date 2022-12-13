@@ -11,6 +11,7 @@
 		B34FCAA52948BA9C00BE046D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34FCAA42948BA9C00BE046D /* ContentView.swift */; };
 		B34FCAA72948BA9D00BE046D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B34FCAA62948BA9D00BE046D /* Assets.xcassets */; };
 		B34FCAAA2948BA9D00BE046D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B34FCAA92948BA9D00BE046D /* Preview Assets.xcassets */; };
+		B34FCAB32948BB8B00BE046D /* ScreenPortSDK in Frameworks */ = {isa = PBXBuildFile; productRef = B34FCAB22948BB8B00BE046D /* ScreenPortSDK */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B34FCAB32948BB8B00BE046D /* ScreenPortSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +87,9 @@
 			dependencies = (
 			);
 			name = ScreenPortSDKDemo;
+			packageProductDependencies = (
+				B34FCAB22948BB8B00BE046D /* ScreenPortSDK */,
+			);
 			productName = ScreenPortSDKDemo;
 			productReference = B34FCA9F2948BA9C00BE046D /* ScreenPortSDKDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +118,9 @@
 				Base,
 			);
 			mainGroup = B34FCA962948BA9C00BE046D;
+			packageReferences = (
+				B34FCAB12948BB8B00BE046D /* XCRemoteSwiftPackageReference "screenportsdk" */,
+			);
 			productRefGroup = B34FCAA02948BA9C00BE046D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -349,6 +357,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B34FCAB12948BB8B00BE046D /* XCRemoteSwiftPackageReference "screenportsdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/in2core/screenportsdk";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B34FCAB22948BB8B00BE046D /* ScreenPortSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B34FCAB12948BB8B00BE046D /* XCRemoteSwiftPackageReference "screenportsdk" */;
+			productName = ScreenPortSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B34FCA972948BA9C00BE046D /* Project object */;
 }
