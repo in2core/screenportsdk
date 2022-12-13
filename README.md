@@ -30,3 +30,4 @@ To add it to your project, follow these steps:
 7. Use `import ScreenPortSDK` in your code.
 
 See [the documentation](https://in2core.github.io/screenportsdk/documentation/screenportsdk/) for details on how to use the SDK.
+This package includes a [demo project](Demo) showing how to stream from ScreenPort devices using [SwiftUI](Demo/ScreenPortSDKDemo/SwiftUI) and [UIKit](Demo/ScreenPortSDKDemo/UIKit).
