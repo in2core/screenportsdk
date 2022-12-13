@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B34FCAA32948BA9C00BE046D /* ScreenPortSDKDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34FCAA22948BA9C00BE046D /* ScreenPortSDKDemoApp.swift */; };
+		B34FCAA52948BA9C00BE046D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34FCAA42948BA9C00BE046D /* ContentView.swift */; };
+		B34FCAA72948BA9D00BE046D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B34FCAA62948BA9D00BE046D /* Assets.xcassets */; };
+		B34FCAB32948BB8B00BE046D /* ScreenPortSDK in Frameworks */ = {isa = PBXBuildFile; productRef = B34FCAB22948BB8B00BE046D /* ScreenPortSDK */; };
+		B34FCAB52948BC9D00BE046D /* DeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34FCAB42948BC9D00BE046D /* DeviceView.swift */; };
+		B34FCAB72948BE0600BE046D /* DeviceStreamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34FCAB62948BE0600BE046D /* DeviceStreamView.swift */; };
+		B34FCABA2948BF8800BE046D /* DeviceStreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34FCAB92948BF8800BE046D /* DeviceStreamViewController.swift */; };
+		B34FCABC2948C13B00BE046D /* DeviceStreamViewControllerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34FCABB2948C13B00BE046D /* DeviceStreamViewControllerWrapper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B34FCA9F2948BA9C00BE046D /* ScreenPortSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenPortSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B34FCAA22948BA9C00BE046D /* ScreenPortSDKDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenPortSDKDemoApp.swift; sourceTree = "<group>"; };
+		B34FCAA42948BA9C00BE046D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B34FCAA62948BA9D00BE046D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B34FCAB02948BAD800BE046D /* ScreenPortSDKDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ScreenPortSDKDemo.entitlements; sourceTree = "<group>"; };
+		B34FCAB42948BC9D00BE046D /* DeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceView.swift; sourceTree = "<group>"; };
+		B34FCAB62948BE0600BE046D /* DeviceStreamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceStreamView.swift; sourceTree = "<group>"; };
+		B34FCAB92948BF8800BE046D /* DeviceStreamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceStreamViewController.swift; sourceTree = "<group>"; };
+		B34FCABB2948C13B00BE046D /* DeviceStreamViewControllerWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceStreamViewControllerWrapper.swift; sourceTree = "<group>"; };
+		B34FCABE2948C24700BE046D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B34FCA9C2948BA9C00BE046D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B34FCAB32948BB8B00BE046D /* ScreenPortSDK in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B34FCA962948BA9C00BE046D = {
+			isa = PBXGroup;
+			children = (
+				B34FCAA12948BA9C00BE046D /* ScreenPortSDKDemo */,
+				B34FCAA02948BA9C00BE046D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B34FCAA02948BA9C00BE046D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B34FCA9F2948BA9C00BE046D /* ScreenPortSDKDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B34FCAA12948BA9C00BE046D /* ScreenPortSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B34FCABE2948C24700BE046D /* Info.plist */,
+				B34FCAB02948BAD800BE046D /* ScreenPortSDKDemo.entitlements */,
+				B34FCAA22948BA9C00BE046D /* ScreenPortSDKDemoApp.swift */,
+				B34FCAA42948BA9C00BE046D /* ContentView.swift */,
+				B34FCABD2948C1E600BE046D /* UIKit */,
+				B34FCAB82948BF5E00BE046D /* SwiftUI */,
+				B34FCAA62948BA9D00BE046D /* Assets.xcassets */,
+			);
+			path = ScreenPortSDKDemo;
+			sourceTree = "<group>";
+		};
+		B34FCAB82948BF5E00BE046D /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				B34FCAB42948BC9D00BE046D /* DeviceView.swift */,
+				B34FCAB62948BE0600BE046D /* DeviceStreamView.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		B34FCABD2948C1E600BE046D /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				B34FCAB92948BF8800BE046D /* DeviceStreamViewController.swift */,
+				B34FCABB2948C13B00BE046D /* DeviceStreamViewControllerWrapper.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B34FCA9E2948BA9C00BE046D /* ScreenPortSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B34FCAAD2948BA9D00BE046D /* Build configuration list for PBXNativeTarget "ScreenPortSDKDemo" */;
+			buildPhases = (
+				B34FCA9B2948BA9C00BE046D /* Sources */,
+				B34FCA9C2948BA9C00BE046D /* Frameworks */,
+				B34FCA9D2948BA9C00BE046D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScreenPortSDKDemo;
+			packageProductDependencies = (
+				B34FCAB22948BB8B00BE046D /* ScreenPortSDK */,
+			);
+			productName = ScreenPortSDKDemo;
+			productReference = B34FCA9F2948BA9C00BE046D /* ScreenPortSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B34FCA972948BA9C00BE046D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					B34FCA9E2948BA9C00BE046D = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = B34FCA9A2948BA9C00BE046D /* Build configuration list for PBXProject "ScreenPortSDKDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B34FCA962948BA9C00BE046D;
+			packageReferences = (
+				B34FCAB12948BB8B00BE046D /* XCRemoteSwiftPackageReference "screenportsdk" */,
+			);
+			productRefGroup = B34FCAA02948BA9C00BE046D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B34FCA9E2948BA9C00BE046D /* ScreenPortSDKDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B34FCA9D2948BA9C00BE046D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B34FCAA72948BA9D00BE046D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B34FCA9B2948BA9C00BE046D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B34FCAB72948BE0600BE046D /* DeviceStreamView.swift in Sources */,
+				B34FCAA52948BA9C00BE046D /* ContentView.swift in Sources */,
+				B34FCABC2948C13B00BE046D /* DeviceStreamViewControllerWrapper.swift in Sources */,
+				B34FCAA32948BA9C00BE046D /* ScreenPortSDKDemoApp.swift in Sources */,
+				B34FCAB52948BC9D00BE046D /* DeviceView.swift in Sources */,
+				B34FCABA2948BF8800BE046D /* DeviceStreamViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B34FCAAB2948BA9D00BE046D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B34FCAAC2948BA9D00BE046D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B34FCAAE2948BA9D00BE046D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ScreenPortSDKDemo/ScreenPortSDKDemo.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScreenPortSDKDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.in2core.ScreenPortSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B34FCAAF2948BA9D00BE046D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ScreenPortSDKDemo/ScreenPortSDKDemo.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScreenPortSDKDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.in2core.ScreenPortSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B34FCA9A2948BA9C00BE046D /* Build configuration list for PBXProject "ScreenPortSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B34FCAAB2948BA9D00BE046D /* Debug */,
+				B34FCAAC2948BA9D00BE046D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B34FCAAD2948BA9D00BE046D /* Build configuration list for PBXNativeTarget "ScreenPortSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B34FCAAE2948BA9D00BE046D /* Debug */,
+				B34FCAAF2948BA9D00BE046D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B34FCAB12948BB8B00BE046D /* XCRemoteSwiftPackageReference "screenportsdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/in2core/screenportsdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = "0.1.0-alpha.1";
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B34FCAB22948BB8B00BE046D /* ScreenPortSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B34FCAB12948BB8B00BE046D /* XCRemoteSwiftPackageReference "screenportsdk" */;
+			productName = ScreenPortSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B34FCA972948BA9C00BE046D /* Project object */;
+}
