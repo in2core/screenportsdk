@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>The app searches the local network for ScreenPort devices.</string>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_qtake._udp.</string>
+		<string>_qls._udp.</string>
+	</array>
+</dict>
+</plist>

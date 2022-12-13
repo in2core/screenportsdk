@@ -12,6 +12,10 @@
 		B34FCAA72948BA9D00BE046D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B34FCAA62948BA9D00BE046D /* Assets.xcassets */; };
 		B34FCAAA2948BA9D00BE046D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B34FCAA92948BA9D00BE046D /* Preview Assets.xcassets */; };
 		B34FCAB32948BB8B00BE046D /* ScreenPortSDK in Frameworks */ = {isa = PBXBuildFile; productRef = B34FCAB22948BB8B00BE046D /* ScreenPortSDK */; };
+		B34FCAB52948BC9D00BE046D /* DeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34FCAB42948BC9D00BE046D /* DeviceView.swift */; };
+		B34FCAB72948BE0600BE046D /* DeviceStreamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34FCAB62948BE0600BE046D /* DeviceStreamView.swift */; };
+		B34FCABA2948BF8800BE046D /* DeviceStreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34FCAB92948BF8800BE046D /* DeviceStreamViewController.swift */; };
+		B34FCABC2948C13B00BE046D /* DeviceStreamViewControllerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34FCABB2948C13B00BE046D /* DeviceStreamViewControllerWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +25,11 @@
 		B34FCAA62948BA9D00BE046D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B34FCAA92948BA9D00BE046D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B34FCAB02948BAD800BE046D /* ScreenPortSDKDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ScreenPortSDKDemo.entitlements; sourceTree = "<group>"; };
+		B34FCAB42948BC9D00BE046D /* DeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceView.swift; sourceTree = "<group>"; };
+		B34FCAB62948BE0600BE046D /* DeviceStreamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceStreamView.swift; sourceTree = "<group>"; };
+		B34FCAB92948BF8800BE046D /* DeviceStreamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceStreamViewController.swift; sourceTree = "<group>"; };
+		B34FCABB2948C13B00BE046D /* DeviceStreamViewControllerWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceStreamViewControllerWrapper.swift; sourceTree = "<group>"; };
+		B34FCABE2948C24700BE046D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +63,12 @@
 		B34FCAA12948BA9C00BE046D /* ScreenPortSDKDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B34FCABE2948C24700BE046D /* Info.plist */,
 				B34FCAB02948BAD800BE046D /* ScreenPortSDKDemo.entitlements */,
 				B34FCAA22948BA9C00BE046D /* ScreenPortSDKDemoApp.swift */,
 				B34FCAA42948BA9C00BE046D /* ContentView.swift */,
+				B34FCABD2948C1E600BE046D /* UIKit */,
+				B34FCAB82948BF5E00BE046D /* SwiftUI */,
 				B34FCAA62948BA9D00BE046D /* Assets.xcassets */,
 				B34FCAA82948BA9D00BE046D /* Preview Content */,
 			);
@@ -69,6 +81,24 @@
 				B34FCAA92948BA9D00BE046D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B34FCAB82948BF5E00BE046D /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				B34FCAB42948BC9D00BE046D /* DeviceView.swift */,
+				B34FCAB62948BE0600BE046D /* DeviceStreamView.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		B34FCABD2948C1E600BE046D /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				B34FCAB92948BF8800BE046D /* DeviceStreamViewController.swift */,
+				B34FCABB2948C13B00BE046D /* DeviceStreamViewControllerWrapper.swift */,
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,8 +177,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B34FCAB72948BE0600BE046D /* DeviceStreamView.swift in Sources */,
 				B34FCAA52948BA9C00BE046D /* ContentView.swift in Sources */,
+				B34FCABC2948C13B00BE046D /* DeviceStreamViewControllerWrapper.swift in Sources */,
 				B34FCAA32948BA9C00BE046D /* ScreenPortSDKDemoApp.swift in Sources */,
+				B34FCAB52948BC9D00BE046D /* DeviceView.swift in Sources */,
+				B34FCABA2948BF8800BE046D /* DeviceStreamViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +314,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ScreenPortSDKDemo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScreenPortSDKDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -313,6 +348,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ScreenPortSDKDemo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScreenPortSDKDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
