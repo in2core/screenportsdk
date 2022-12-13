@@ -401,8 +401,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/in2core/screenportsdk";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = "0.1.0-alpha.1";
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
