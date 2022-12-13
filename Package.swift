@@ -10,5 +10,6 @@ let package = Package(
             targets: ["ScreenPortSDK"]),
     ],
     targets: [
+        .binaryTarget(name: "ScreenPortSDK", path: "ScreenPortSDK.xcframework"),
     ]
 )
