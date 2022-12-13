@@ -10,10 +10,5 @@ let package = Package(
             targets: ["ScreenPortSDK"]),
     ],
     targets: [
-        .target(
-            name: "ScreenPortSDK",
-            dependencies: [
-            ]
-        ),
     ]
 )
