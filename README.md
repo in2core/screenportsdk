@@ -8,6 +8,7 @@ The SDK is currently available for the following Apple platforms:
 
 - iOS and iPadOS
 - macOS (via Mac Catalyst)
+- tvOS (network connections only)
 
 ## Usage
 
