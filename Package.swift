@@ -17,7 +17,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "ScreenPortSDK",
-            url: "https://github.com/in2core/screenportsdk/releases/download/v0.1.0-alpha.3/ScreenPortSDK-0.1.0-alpha.3.zip",
-            checksum: "1ef4fcdf1b450983bb0fac7f02e55160e40c70369312e4818d0ed844160332ad"),
+            url: "https://github.com/in2core/screenportsdk/releases/download/v0.1.0-alpha.4/ScreenPortSDK-0.1.0-alpha.4.zip",
+            checksum: "1b1c09f6d0da7bfcced3f8c14dfd636efc2ae560f03aaef8576b747880195c1a"),
     ]
 )
