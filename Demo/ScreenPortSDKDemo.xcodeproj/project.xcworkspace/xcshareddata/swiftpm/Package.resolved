@@ -3,7 +3,7 @@
     {
       "identity" : "screenportsdk",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/in2core/screenportsdk",
+      "location" : "https://github.com/in2core/screenportsdk.git",
       "state" : {
         "revision" : "5a7135a326a08ebfd43aed70df6100bba671974f",
         "version" : "0.2.0-alpha.1"
