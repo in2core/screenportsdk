@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90D50B4C296EE7CF0084E56C /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D50B4B296EE7CF0084E56C /* Grid.swift */; };
 		B34FCAA32948BA9C00BE046D /* ScreenPortSDKDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34FCAA22948BA9C00BE046D /* ScreenPortSDKDemoApp.swift */; };
 		B34FCAA52948BA9C00BE046D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34FCAA42948BA9C00BE046D /* ContentView.swift */; };
 		B34FCAA72948BA9D00BE046D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B34FCAA62948BA9D00BE046D /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		90D50B4B296EE7CF0084E56C /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 		B34FCA9F2948BA9C00BE046D /* ScreenPortSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenPortSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B34FCAA22948BA9C00BE046D /* ScreenPortSDKDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenPortSDKDemoApp.swift; sourceTree = "<group>"; };
 		B34FCAA42948BA9C00BE046D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				B34FCAB02948BAD800BE046D /* ScreenPortSDKDemo.entitlements */,
 				B34FCAA22948BA9C00BE046D /* ScreenPortSDKDemoApp.swift */,
 				B34FCAA42948BA9C00BE046D /* ContentView.swift */,
+				90D50B4B296EE7CF0084E56C /* Grid.swift */,
 				B34FCABD2948C1E600BE046D /* UIKit */,
 				B34FCAB82948BF5E00BE046D /* SwiftUI */,
 				B34FCAA62948BA9D00BE046D /* Assets.xcassets */,
@@ -170,6 +173,7 @@
 				B34FCABC2948C13B00BE046D /* DeviceStreamViewControllerWrapper.swift in Sources */,
 				B34FCAA32948BA9C00BE046D /* ScreenPortSDKDemoApp.swift in Sources */,
 				B34FCAB52948BC9D00BE046D /* DeviceView.swift in Sources */,
+				90D50B4C296EE7CF0084E56C /* Grid.swift in Sources */,
 				B34FCABA2948BF8800BE046D /* DeviceStreamViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

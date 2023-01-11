@@ -18,10 +18,12 @@ struct DeviceView: View {
         if let device = devices.first {
             VStack {
                 Text("Available Devices Count: \(devices.count)")
+                    .padding()
                 DeviceStreamView(device: device)
             }
         } else {
             Text("No Available Device")
+                .padding()
         }
     }
 }

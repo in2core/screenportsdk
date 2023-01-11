@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/in2core/screenportsdk",
       "state" : {
-        "revision" : "b0d817b9fbf4697f0308e990e991fdde1ac741a1",
-        "version" : "0.1.0-alpha.1"
+        "revision" : "5a7135a326a08ebfd43aed70df6100bba671974f",
+        "version" : "0.2.0-alpha.1"
       }
     }
   ],
