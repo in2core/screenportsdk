@@ -9,6 +9,8 @@ import ScreenPortSDK
 import SwiftUI
 
 struct DeviceStreamView: View {
+    let id: Int
+
     @ObservedObject
     var device: Device
 
@@ -20,6 +22,9 @@ struct DeviceStreamView: View {
 
     @State
     private var vignetteIntensity: Float = 0.0
+
+    @Environment(\.renderImage)
+    private var renderImage
 
     private var filters: [CIFilter] {
         var filters: [CIFilter] = []
@@ -57,7 +62,12 @@ struct DeviceStreamView: View {
                     Slider(value: $vignetteIntensity, in: 0...1)
                 }
             }
+            Button("Capture Image") {
+                if let image = renderImage(for: id) {
+                    print(image.description)
+                }
+            }
         }.padding()
-        VideoView(device: device, connectionType: connectionType, filters: filters)
+        VideoView(id: id, device: device, connectionType: connectionType, filters: filters)
     }
 }

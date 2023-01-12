@@ -19,7 +19,7 @@ struct DeviceView: View {
             VStack {
                 Text("Available Devices Count: \(devices.count)")
                     .padding()
-                DeviceStreamView(device: device)
+                DeviceStreamView(id: 1, device: device)
             }
         } else {
             Text("No Available Device")
