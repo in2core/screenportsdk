@@ -22,7 +22,7 @@ To add it to your project, follow these steps:
     - *Branch*, entering `main` into the branch name field.
 4. Click *Add Package* and wait for package resolution.
 5. Select the target to add the package product to, then click *Add Package* again.
-6. Add the `NSLocalNetworkUsageDescription` and `NSBonjourServices` keys from [Info.plist](Demo/ScreenPortSDKDemo/Info.plist) into your project’s Info.plist.
+6. Add the `NSLocalNetworkUsageDescription` and `NSBonjourServices` keys from [Info.plist](Demo/ScreenPortSDKDemo/Info.plist) into your project’s Info.plist. Due to a [known issue](https://github.com/in2core/screenportsdk/issues/4), this step is currently required even if you only plan to use USB connections.
 7. Add the following [entitlements](Demo/ScreenPortSDKDemo/ScreenPortSDKDemo.entitlements) into your project’s entitlements file:
     - `com.apple.security.device.usb`
     - `com.apple.security.network.client`
