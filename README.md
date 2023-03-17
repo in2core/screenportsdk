@@ -18,7 +18,7 @@ To add it to your project, follow these steps:
 1. Navigate to *Project Settings* in Xcode, then *Package Dependencies*.
 2. Click the plus button to add a dependency and paste the URL of this repository into the search field: `https://github.com/in2core/screenportsdk.git`
 3. Select a *Dependency Rule*, either:
-    - *Up to Next Major Version*, entering `0.3.0-alpha.1` into the left text field and leaving the right field blank (recommended), or
+    - *Up to Next Major Version*, entering `1.0.0` into the left text field and leaving the right field blank (recommended), or
     - *Branch*, entering `main` into the branch name field.
 4. Click *Add Package* and wait for package resolution.
 5. Select the target to add the package product to, then click *Add Package* again.
