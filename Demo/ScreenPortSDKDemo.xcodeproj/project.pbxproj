@@ -20,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		90D50B4B296EE7CF0084E56C /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		90DF488A308609C20089FC02 /* ScreenPortSDK */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "ScreenPortSDK"; path = ".."; sourceTree = "<group>"; };
 		B34FCA9F2948BA9C00BE046D /* ScreenPortSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenPortSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B34FCAA22948BA9C00BE046D /* ScreenPortSDKDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenPortSDKDemoApp.swift; sourceTree = "<group>"; };
 		B34FCAA42948BA9C00BE046D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		B34FCA962948BA9C00BE046D = {
 			isa = PBXGroup;
 			children = (
+				90DF488A308609C20089FC02 /* ScreenPortSDK */,
 				B34FCAA12948BA9C00BE046D /* ScreenPortSDKDemo */,
 				B34FCAA02948BA9C00BE046D /* Products */,
 			);
