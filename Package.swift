@@ -1,4 +1,4 @@
-// swift-tools-version: 5.5
+// swift-tools-version:5.9
 
 import PackageDescription
 
@@ -8,16 +8,19 @@ let package = Package(
         .iOS(.v13),
         .macCatalyst(.v13),
         .tvOS(.v13),
+        .visionOS("2.0"),
     ],
     products: [
         .library(
             name: "ScreenPortSDK",
-            targets: ["ScreenPortSDK"]),
+            targets: ["ScreenPortSDK"]
+        ),
     ],
     targets: [
         .binaryTarget(
             name: "ScreenPortSDK",
-            url: "https://github.com/in2core/screenportsdk/releases/download/v1.0.0/ScreenPortSDK-1.0.0.zip",
-            checksum: "0229b4bc301f05cf4c8fad8fd316ca82085def43cde267510ca3f1f4d85c199f"),
+            url: "https://github.com/in2core/screenportsdk/releases/download/v1.1.0-beta.1/ScreenPortSDK-1.1.0-beta.1.zip",
+            checksum: "96c4918489266ab02a12ff3c4683db95176bfcc95448e812de67fd3bbb5be9e5"
+        ),
     ]
 )

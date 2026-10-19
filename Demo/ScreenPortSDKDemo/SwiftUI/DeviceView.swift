@@ -17,7 +17,7 @@ struct DeviceView: View {
         let devices = controller.availableDevices
         if let device = devices.first {
             VStack {
-                Text("Available Devices Count: \(devices.count)")
+                Text("Available Devices: \(devices.count)")
                     .padding()
                 DeviceStreamView(id: 1, device: device)
             }
