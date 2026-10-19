@@ -10,8 +10,8 @@ import SwiftUI
 
 /// Presenting ScreenPort's stream in SwiftUI
 struct DeviceView: View {
-    @StateObject
-    private var controller = DeviceController()
+    @ObservedObject
+    var controller: DeviceController
 
     var body: some View {
         let devices = controller.availableDevices
@@ -29,7 +29,16 @@ struct DeviceView: View {
 }
 
 struct DeviceView_Previews: PreviewProvider {
+    private struct Preview: View {
+        @StateObject
+        private var controller = DeviceController()
+
+        var body: some View {
+            DeviceView(controller: controller)
+        }
+    }
+
     static var previews: some View {
-        DeviceView()
+        Preview()
     }
 }

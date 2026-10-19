@@ -10,11 +10,20 @@ import ScreenPortSDK
 import UIKit
 
 /// Presenting ScreenPort's stream in UIKit
-class DeviceStreamViewController: UIViewController {
-    private let deviceController = DeviceController()
+final class DeviceStreamViewController: UIViewController {
+    private let deviceController: DeviceController
     private let videoViewController = VideoViewController()
 
     private var subscriptions: Set<AnyCancellable> = []
+
+    init(deviceController: DeviceController) {
+        self.deviceController = deviceController
+        super.init(nibName: nil, bundle: nil)
+    }
+
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,6 +46,7 @@ class DeviceStreamViewController: UIViewController {
                 self?.update(with: devices)
             }
             .store(in: &subscriptions)
+        update(with: deviceController.availableDevices)
     }
 
     private func update(with devices: [Device]) {
